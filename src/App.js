@@ -3,7 +3,9 @@ import {Tags} from './Tags'
 
 function App() {
   return (
-      <Tags tags={["boomdotdev", "task", "tags", "react"]} />
+    <div className="tags">
+ <Tags tags={["boomdotdev", "task", "tags", "react"]}/>
+</div>
   );
 }
 
